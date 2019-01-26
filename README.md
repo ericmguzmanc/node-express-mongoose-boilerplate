@@ -1,2 +1,2 @@
-# node-express-simple-crud
-A simple CRUD app made with Nodejs using Express and mongoose
+# node-express-mongoose-boilerplate
+Code for a Node Express Mongoose Application
