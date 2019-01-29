@@ -5,6 +5,11 @@ const bodyParser = require('body-parser');
 const dbconn = require('./db');
 const cors = require('cors');
 
+/**
+ *  dotenv - loads environment variables from .env file into process.env
+ *  Create a .env file if you need to.
+ */
+require('dotenv').config();
 
 // CORS Enabled
 app.use(cors());

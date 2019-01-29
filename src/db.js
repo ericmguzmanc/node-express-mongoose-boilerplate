@@ -1,9 +1,9 @@
 const mongoose = require('mongoose');
 
-const SERVER = '';
-const DATABASE = '';
-const USER = '';
-const PASSWORD = '';
+const SERVER = process.env.SERVER;
+const DATABASE = process.env.DATABASE;
+const USER = process.env.USER;
+const PASSWORD = process.env.PASSWORD;
 const dbURI = `mongodb://${USER}:${PASSWORD}@${SERVER}/${DATABASE}`;
 /**
  *  🔋 Database connection
