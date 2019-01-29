@@ -1,8 +1,13 @@
-let express = require('express');
-let app = express();
-let path = require('path');
-let bodyParser = require('body-parser');
-let dbconn = require('./db');
+const express = require('express');
+const app = express();
+const path = require('path');
+const bodyParser = require('body-parser');
+const dbconn = require('./db');
+const cors = require('cors');
+
+
+// CORS Enabled
+app.use(cors());
 
 // ℹ Routes import will be here
 
